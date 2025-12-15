@@ -1,6 +1,6 @@
 # Disemvowel Trolls.
 
-Difficulty: 7 kyu
+Difficulty: 7 kyu<br/>
 Language: C
 
 # Problem statement:
