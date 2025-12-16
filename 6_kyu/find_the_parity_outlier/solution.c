@@ -7,7 +7,7 @@ int find_outlier(const int values[], size_t count) {
     odd_count = even_count = 0;
     even_index = odd_index = -1;
 
-    for (int i = 0; i < count; i++) {
+    for (size_t i = 0; i < count; i++) {
         if ((values[i] & 1) == 0) {
             ++even_count;
             even_index = i;
@@ -18,13 +18,13 @@ int find_outlier(const int values[], size_t count) {
         }
     }
 
-    return (even_count == 1)? even_index : odd_index;
+    return (even_count == 1)? values[even_index] : values[odd_index];
 }
 
 int main(void) {
     int a[] = {2, 4, 0, 100, 4, 11, 2602, 36};
 
-    printf("The outlier is %d\n", a[find_outlier(a, sizeof(a)/sizeof(a[0]))]);
+    printf("The outlier is %d\n", find_outlier(a, sizeof(a)/sizeof(a[0])));
 
     return 0;
 }
