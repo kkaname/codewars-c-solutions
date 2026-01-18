@@ -5,7 +5,9 @@
 void to_camel_case(const char *text, char *camel) {
     int i, j;
     j = 0;
-    for (i = 0; text[i] != 0; i++) {
+    camel[j] = '\0';    //if text is a empty string
+
+    for (i = 0; text[i] != '\0'; i++) {
         if (text[i] != '-' && text[i] != '_') {
             camel[j++] = text[i];
         }
@@ -19,6 +21,7 @@ void to_camel_case(const char *text, char *camel) {
             }
         }
     }
+    camel[j] = '\0';
 }
 
 int main(void) {
