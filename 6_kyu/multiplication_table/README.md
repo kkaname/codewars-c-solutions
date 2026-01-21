@@ -1,9 +1,9 @@
-## Multiplication Table
+# Multiplication Table
 
 Difficulty: 6 kyu
 Language: C
 
-# Problem Statement:
+## Problem Statement:
 Your task, is to create N×N multiplication table, of size provided in parameter.
 
 For example, when given size is 3:

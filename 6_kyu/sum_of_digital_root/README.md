@@ -1,9 +1,9 @@
-## Sum of Digits/Digital Rool
+# Sum of Digits/Digital Rool
 
 Difficulty: 6 kyu
 Languange: c
 
-# Problem Statement:
+## Problem Statement:
 Digital root is the recursive sum of all the digits in a number.
 
 Given n, take the sum of the digits of n. If that value has more than one digit, 

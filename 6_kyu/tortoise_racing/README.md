@@ -1,9 +1,9 @@
-## Tortoise racing
+# Tortoise racing
 
 Difficulty: 6 Kyu
 Language: C
 
-# Problem Statement:
+## Problem Statement:
 Two tortoises named A and B must run a race. A starts with an average speed of 720 feet per hour.
 Young B knows she runs faster than A, and furthermore has not finished her cabbage.
 
