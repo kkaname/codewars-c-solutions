@@ -1,6 +1,6 @@
  # Snail Sort
  
- Difficulty: 4 Kyu
+ Difficulty: 4 Kyu<br>
  Language: C
  
  ## Problem Description
