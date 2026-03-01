@@ -1,6 +1,7 @@
 # Square Matrix Multiplication
 
 Difficulty: 5 Kyu
+
 Language: c
 
 ## Problem Description
