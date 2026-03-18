@@ -19,7 +19,7 @@ bool is_valid_ISBN_10 (const char *ISBN) {
             if ((ISBN[i] - '0' >= 0) && (ISBN[i] - '0' <= 9)) {
                 sum += (ISBN[i] - '0') * (i + 1);
             }
-            else if (ISBN[i] == 'x' || ISBN[i] == 'X') {
+            else if (ISBN[i] == 'X') {
                 sum += 10 * (i + 1);
             }
             else {
